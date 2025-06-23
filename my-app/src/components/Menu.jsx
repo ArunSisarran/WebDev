@@ -3,7 +3,9 @@ import './Menu.css'
 
 function Menu({ addToCart }) {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
   }, []);
 
   const pizzaList = [
